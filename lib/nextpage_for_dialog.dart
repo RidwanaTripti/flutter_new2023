@@ -7,7 +7,7 @@ class NextPage_DialogBox extends StatelessWidget {
       shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(30))),
       minimumSize: Size(100, 80),
-      backgroundColor: Color.fromARGB(255, 171, 60, 190),
+      backgroundColor: Colors.transparent,
       foregroundColor: Colors.black,
       side: BorderSide(color: Colors.black));
 
