@@ -1,4 +1,4 @@
-import 'package:first_hw/button_widget.dart';
+import 'package:first_hw/screens/button_widget.dart';
 import 'package:flutter/material.dart';
 
 class NextPage_DialogBox extends StatelessWidget {

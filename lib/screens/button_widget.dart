@@ -19,6 +19,10 @@ class ButtonWidget extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          title: Text(
+            "Buttons",
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
           flexibleSpace: Appbar_Widget(),
         ),
         body: Center(

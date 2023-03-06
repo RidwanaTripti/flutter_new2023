@@ -7,16 +7,12 @@ class Appbar_Widget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Buttons",
-          style: TextStyle(fontWeight: FontWeight.bold),
-        ),
         foregroundColor: Color.fromARGB(255, 31, 9, 9),
         centerTitle: true,
         flexibleSpace: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.purple, Colors.pinkAccent],
+              colors: [Colors.green, Color.fromARGB(255, 68, 136, 192)],
             ),
           ),
         ),

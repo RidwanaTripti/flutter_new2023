@@ -1,8 +1,9 @@
-import 'button_widget.dart';
-import 'column&row_widget.dart';
-import 'container_widget.dart';
-import 'scaffold_widget.dart';
-import 'text_widget.dart';
+import 'screens/button_widget.dart';
+import 'screens/column&row_widget.dart';
+import 'screens/container_widget.dart';
+import 'screens/custom_dialog_widget.dart';
+import 'screens/scaffold_widget.dart';
+import 'screens/text_widget.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
       // home: TextWidget(),
       // home: Container_Widget(),
       // home: ColumnRow_widget(),
-      home: ButtonWidget(),
+      // home: ButtonWidget(),
+      home: Custom_Dialog_Widget(),
     );
   }
 }

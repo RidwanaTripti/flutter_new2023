@@ -1,4 +1,4 @@
-import 'package:first_hw/text_widget.dart';
+import 'package:first_hw/screens/text_widget.dart';
 import 'package:flutter/material.dart';
 
 class ScaffoldWidget extends StatelessWidget {

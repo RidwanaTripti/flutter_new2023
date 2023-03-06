@@ -24,7 +24,7 @@ class DialogBox_Widget extends StatelessWidget {
             Text(
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit."),
             Text(
-                "Touch 'CANCLE' to cancle or prees long or 'OK' to route next.."),
+                "Touch 'CANCLE' to cancle or press long or 'OK' to route next.."),
           ],
         ),
       ),
